@@ -1,0 +1,31 @@
+body {
+    background-color: #f2ddb67d;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: #799861;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: #E7C466 wavy underline;
+  }
+  
+  ul {
+    color: #CF7238;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+  }
+
+  ul li::before {
+    content: "\02742";
+    color:#799861;
+    list-style-type: circle;
+
+  }
+
+  div {
+    width: 70px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
